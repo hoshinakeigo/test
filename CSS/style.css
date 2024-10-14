@@ -1,0 +1,589 @@
+#menuBtn.-w-close{
+    background:transparent;
+}
+
+#menuBtn.-w-close::before{
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+#menuBtn.-w-close::after{
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+}
+
+body {
+  width: 100%;
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 400;
+  margin: 0;
+}
+.windsong-regular {
+  font-family: "WindSong", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.windsong-medium {
+  font-family: "WindSong", cursive;
+  font-weight: 500;
+  font-style: normal;
+  margin-bottom: 0px;
+}
+
+
+
+@media only screen and (min-width: 800px){
+    
+  a#menu{
+        display:none;
+    }   
+
+    h1 {
+        font-weight: bold;
+    }
+    
+    p {
+        font-weight: 400;
+        line-height: 2;
+    }
+
+    #mainnav{
+        position:fixed;
+        top: 0;
+        width:100%;
+        z-index:500;
+    }
+
+    #mainnav ul{
+        text-align: right;
+        padding-right: 30px;
+    }
+
+    #mainnav li{
+        display: inline-block;
+        padding: 45px 10px 20px;
+        font-size: 14px;
+        font-weight: 300;
+    }
+    
+  #mainnav a{
+        color: #000;
+        text-decoration:none;
+    }
+    
+    #mainnav.changeNav{
+        background: rgba(255,255,255,.9);
+        border-bottom: 1px solid #d1d1d1;
+    }
+    
+    #mainnav.changeNav li{
+        padding: 20px 10px;
+    }
+    .mainv {
+        background-image: url(../img/nozakisan010A0186_TP_V.jpg);
+        padding: 300px 200px;
+        background-size: cover;
+        text-align: center;
+        color: #ffffff;
+        font-size: 30px;
+
+    }
+
+    #sec01 {
+    display: inline-block;
+    margin: 50px 0;
+    text-align: center;
+    width: 100%;
+    }
+    .block {
+        margin: auto;
+        width: 80%;
+    }
+    .block p{
+      text-align: left;
+    }
+    #sec02 {
+        width: 100%;
+        background-color: #f3f3f3;
+        margin: 4rem auto;
+      }
+      
+      .case {
+        margin: 0 auto;
+      }
+      
+      .case__item {
+        display: flex;
+      }
+      
+      .case__item:nth-child(odd) {
+        flex-direction: row-reverse;
+      }
+      
+      .case__item__text {
+        width: 50%;
+      }
+
+      .case__item__img_a{
+        background-image: url(../img/fjk_grandgreen02_TP_V.jpg);
+        width: 50%;
+        height: 400px;
+        background-position: 50% 10%;
+        background-size: cover;
+      }
+      .case__item__img_b{
+        background-image: url(../img/fjk_grandgreenIMG_7614_TP_V.jpg);
+        width: 50%;
+        height: 400px;
+        background-position: 50% 10%;
+        background-size: cover;
+      }
+      
+      .case__item__text {
+        margin: auto ;
+        
+      }
+      .case__item__text h1 {
+        text-align: center;
+      }
+
+      .case__item__text p {
+        width: 80%;
+        margin: auto;
+      }
+      #sec03 {
+        display: flex;
+        width: 70%;
+        margin: 80px auto;
+        justify-content: space-between;
+    }
+    .fl_box_a {
+      width: 20vw;
+      height: 20vw;
+      border-radius: 50%;
+      object-fit: cover;
+      background-image: url(../img/neruAPP96785_TP_V.jpg);
+      margin: auto;
+      background-size: cover;
+}
+.fl_box_b {
+  width: 20vw;
+  height: 20vw;
+  border-radius: 50%;
+  object-fit: cover;
+  background-image: url(../img/nozaki01534_0051_D_TP_V.jpg);
+  margin: auto;
+  background-size: cover;
+}
+.fl_box_c {
+width: 20vw;
+height: 20vw;
+border-radius: 50%;
+object-fit: cover;
+background-image: url(../img/nozakiIMG_3493_TP_V.jpg);
+margin: auto;
+background-size: cover;
+}
+      .fl_box {
+        width: 30%;
+        text-align: center;
+      }
+      .fl_box p {
+        text-align: left;
+      }
+      .fl_box img {
+            width: 250px;
+            height: 250px;
+            border-radius: 50%;
+            object-fit: cover;
+      }
+
+      #sec04 {
+        width: 100%;
+        margin: 50px auto;
+        color: #ffffff;
+    }
+      .parallax_content{
+        display: flex;
+        height: 100%;
+        padding: 50px;
+        justify-content: center;
+        align-items: center;
+      
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+      .img_bg_01{
+        background-image: url(../img/Lu4LDeaNuGYGO161728636092_1728636130.jpg);
+
+      }
+    .box {
+        padding: 60px 50px;
+        width: 30%;
+    }
+    .box h1 {
+        text-align: center;
+    }
+    #sec05 {
+        display: flex;
+        justify-content: center;
+        margin: 200px auto;
+        width: 60%;
+    }
+    table {
+        width: 50%;
+        margin-right: 30px;
+        vertical-align: top;
+    }
+    td {
+        vertical-align: top;
+        padding-left: 30px;
+    }
+    .right {
+        text-align: right;
+        margin-right: 20px;
+        padding-left: initial;
+    }
+    footer {
+        text-align: center;
+        margin: 100px auto;
+    }
+    a {
+        text-decoration: none;
+    }
+
+}
+
+@media only screen and (max-width: 768px){
+
+
+    p {
+        font-weight: 400;
+        line-height: 2;
+        font-size: 3vw;
+    }
+
+
+    h1 {
+        font-weight: bold;
+        font-size: 6vw;
+        margin-bottom: 8%;
+    }
+
+    .windsong-medium {
+      font-family: "WindSong", cursive;
+      font-weight: 500;
+      font-style: normal;
+      margin-bottom: 0px;
+      font-size: 9vw;
+    }
+    .mainv p {
+      font-size: 4vw;
+    }
+
+  a#menu{
+  	display: inline-block;
+  	position: relative;
+  	width: 40px;
+  	height: 40px;
+  	margin: 10px;
+	}
+
+	#menuBtn{
+  	display: block;
+  	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	width: 18px;
+  	height: 2px;
+  	margin: -1px 0 0 -7px;
+  	background: #fff;
+  	transition: .2s;
+	}
+
+	#menuBtn::before, #menuBtn::after{
+  	display: block;
+  	content: "";
+  	position: absolute;
+  	top: 50%;
+  	left: 0;
+  	width: 18px;
+  	height: 2px;
+  	background: #fff;
+  	transition: .3s;
+	}
+
+	#menuBtn:before{
+  	margin-top: -7px;
+	}
+
+	#menuBtn:after{
+  	margin-top: 5px;
+	}
+
+	a#menu .close{
+  	background: transparent;
+	}
+
+	a#menu .close:before, a#menu .close:after{
+  	margin-top: 0;
+	}
+
+	a#menu .close:before{
+  	transform: rotate(-45deg);
+  	-webkit-transform: rotate(-45deg);
+	}
+
+	a#menu .close:after{
+  	transform: rotate(-135deg);
+  	-webkit-transform: rotate(-135deg);
+	}
+
+	.panel{
+		width: 100%;
+		display: none;
+		overflow: hidden;
+		position: relative;
+		left: 0;
+		top: 0;
+		z-index: 100;
+	}
+
+    .panel.dblock{
+        display: block!important;
+    }
+
+	#mainnav{
+		position: absolute;
+		top: 0;
+		right: 0;
+		width: 100%;
+		text-align: right;
+		z-index:500;
+	}
+
+	#mainnav ul{
+		border-bottom: 1px solid #ccc;
+		background: #fff;
+		text-align: left;
+	}
+
+	#mainnav li a{
+		position: relative;
+		display:block;
+		padding:15px 25px;
+		border-bottom: 1px solid #ccc;
+		color: #000;
+		font-weight: 400;
+	}
+
+	#mainnav li a:before{
+		display: block;
+		content: "";
+		position: absolute;
+		top: 50%;
+		left: 5px;
+		width: 6px;
+		height: 6px;
+		margin: -4px 0 0 0;
+		border-top: solid 2px #000;
+		border-right: solid 2px #000;
+		-webkit-transform: rotate(45deg);
+		transform: rotate(45deg);
+	}
+    .mainv {
+        background-image: url(../img/nozakisan010A0186_TP_V.jpg);
+        padding: 60% 10% ;
+        background-size: cover;
+        background-position: 50% 10%;
+        text-align: center;
+        color: #ffffff;
+        font-size: 30px;
+
+    }
+
+    #sec01 {
+    display: inline-block;
+    margin: 15% 0 10%;
+    text-align: center;
+    width: 100%;
+    }
+    .block {
+        margin: auto;
+        width: 60%;
+    }
+
+    .block p {
+        text-align: left;
+    }
+    #sec02 {
+        width: 100%;
+        background-color: #f3f3f3;
+        margin: 4rem auto;
+      }
+      
+      .case {
+        margin: 0 auto;
+      }
+      
+      .case__item {
+        display: flex;
+        flex-direction: column-reverse;
+      }
+      
+      
+      .case__item__text {
+        width: 100%;
+      }
+
+      .case__item__img_a{
+        background-image: url(../img/fjk_grandgreen02_TP_V.jpg);
+        width: 100%;
+        height: 70vw;
+        background-position: 50% 10%;
+        background-size: cover;
+      }
+      .case__item__img_b{
+        background-image: url(../img/fjk_grandgreenIMG_7614_TP_V.jpg);
+        width: 100%;
+        height: 70vw;
+        background-position: 50% 10%;
+        background-size: cover;
+      }
+      
+      .case__item__text {
+        margin: auto ;
+        padding: 7% 0 9%;
+        
+      }
+      .case__item__text h1 {
+        text-align: center;
+      }
+
+      .case__item__text p {
+        width: 85%;
+        margin: auto;
+      }
+      #sec03 {
+        display: flex;
+        width: 70%;
+        margin: 80px auto;
+        
+        flex-direction: column;
+    }
+      .fl_box {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 10%;
+      }
+      .fl_box p {
+        text-align: left;
+      }
+      .fl_box img {
+            width: 300px;
+            height: 300px;
+            border-radius: 50%;
+            object-fit: cover;
+      }
+
+      .fl_box_a {
+        width: 65vw;
+        height: 65vw;
+        border-radius: 50%;
+        object-fit: cover;
+        background-image: url(../img/neruAPP96785_TP_V.jpg);
+        margin: auto;
+        background-size: cover;
+  }
+  .fl_box_b {
+    width: 65vw;
+    height: 65vw;
+    border-radius: 50%;
+    object-fit: cover;
+    background-image: url(../img/nozaki01534_0051_D_TP_V.jpg);
+    margin: auto;
+    background-size: cover;
+}
+.fl_box_c {
+  width: 65vw;
+  height: 65vw;
+  border-radius: 50%;
+  object-fit: cover;
+  background-image: url(../img/nozakiIMG_3493_TP_V.jpg);
+  margin: auto;
+  background-size: cover;
+}
+
+      #sec04 {
+        width: 100%;
+        margin: 50px auto;
+        color: #ffffff;
+    }
+      .parallax_content{
+        display: flex;
+        height: 100%;
+        padding: 10% 5%;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+      
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+      .img_bg_01{
+        background-image: url(../img/Lu4LDeaNuGYGO161728636092_1728636130.jpg);
+
+      }
+    .box {
+  margin-bottom: 10%;
+        width: 100%;
+    }
+    .box h1 {
+        text-align: center;
+    }
+    #sec05 {
+        display: flex;
+        justify-content: center;
+        margin: 15% auto;
+        width: 80%;
+        flex-direction: column;
+        font-size: 3vw;
+    }
+    table {
+        margin-bottom: 5%;
+        margin-left: auto;
+    margin-right: auto;
+        vertical-align: top;
+    }
+    td {
+        vertical-align: top;
+        padding-left: 30px;
+    }
+    .right {
+        text-align: right;
+        margin-right: 20px;
+        padding-left: initial;
+    }
+
+    th,td {
+      padding-bottom: 3%; 
+  }
+    footer {
+        text-align: center;
+        margin: 10% auto;
+    }
+    a {
+        text-decoration: none;
+    }
+    .gmap_iframe {
+        aspect-ratio: 16 / 9;
+        max-width: 1000px;
+        width: 100%;
+        height: auto;
+    }
+}
+
